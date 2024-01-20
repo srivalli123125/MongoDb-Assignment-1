@@ -1,0 +1,3 @@
+3) Write a MongoDB query to display the first 5 restaurant in ascending order of name field.
+
+db.restaurant.find().sort({ name: 1 }).limit(5)
