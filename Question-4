@@ -1,0 +1,3 @@
+4) Write a MongoDB query to display the next 5 restaurants after skipping first 5.
+
+db.restaurant.find().sort({ name: 1 }).skip(5).limit(5)
