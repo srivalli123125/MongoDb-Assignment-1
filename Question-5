@@ -1,0 +1,3 @@
+5) Write a MongoDB query to find the restaurants who achieved a score more than 90.
+
+db.restaurant.find({ "grades.score": { $gt: 90 } })
