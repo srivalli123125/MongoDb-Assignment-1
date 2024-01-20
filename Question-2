@@ -1,0 +1,2 @@
+2) Write a MongoDB query to arrange the name of the restaurants in ascending order along with all the columns.
+db.restaurant.find().sort({ name: 1 })
